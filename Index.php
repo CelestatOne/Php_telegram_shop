@@ -17,7 +17,7 @@ class ShopBot
 {
     // первичные данные
     private $token = "TelegramAPIKey";
-    private $admin = 5020203880; // Ваш id в ТЕЛеГРАМ
+    private $admin = ; // Ваш id в ТЕЛеГРАМ
     private $helloText = "❗Обратите внимание ❗
     Минимальный заказ 2блока но не меньше 900грн <b>
 Наша группа телеграм : @sellDutyFree
@@ -36,8 +36,8 @@ class ShopBot
     // для соединения с БД
     private $host = 'localhost';
     private $db = 'autopri1_teleshopsig';
-    private $user = 'autopri1_shopt';
-    private $pass = 'bG1hL4iK7k';
+    private $user = '';
+    private $pass = '';
     private $charset = 'utf8mb4';
     /**
      * @var PDO
